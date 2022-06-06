@@ -1,0 +1,142 @@
+@font-face {
+    font-family: chalk_font;
+    src: url(../fonts/Chalkdusters.ttf);
+  }
+@font-face {
+    font-family: Jellofont;
+    src: url(../fonts/Jelly.ttf);
+  }
+
+
+.top{
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: larger;
+    font-family: chalk_font;
+}
+
+#searchbar{
+    height: 40px;
+   
+}
+
+
+#search:hover{
+    background-color: antiquewhite;
+}
+
+#search:active{
+  background-color: rgb(240, 169, 76);
+  transform: translateY(4px);
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: antiquewhite;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top:5px;
+  right: 25px;
+  
+  margin-left: 50px;
+}
+
+.sidenav .drinks_types{
+  font-family: Jellofont;
+}
+
+.sidenav .btn {
+  padding: 8px 8px 2px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+}
+
+ .mocktails , .cocktails , .cocktail_list {
+  font-size: 20px;
+  font-family: cursive;
+  color: #000000;
+  text-decoration: none;
+}
+
+
+
+.Cocktails_name{
+  font-style: bold;
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.drinks_photo{
+
+  margin: 50px;
+  padding-right: 100px;
+
+}
+
+@media (max-width: 576px) { 
+  .label{
+    text-align: center;
+    align-items: center;
+    font-size: 13px;
+   
+  }
+  .search_box_button{
+      padding-left: 5px;
+      padding-right: 5px;
+  }
+
+  .drinks_ingredients{
+    
+    margin-top: 2px;
+  }
+
+  .drinks_photo{
+    background-color: antiquewhite;
+    margin: 25px;
+    padding-right: 100px;
+
+  }
+  
+ }
+
+
+ .display_sb{
+   visibility: visible;
+ }
+
+ #drinks_page{
+  visibility: hidden;
+   padding-left: 10px;
+ }
+
+
+ .drinks_name{
+  
+   font-family: cursive;
+ }
+
+
+
+ .drinks_ingredients , .drinks_procedure {
+   font-family: fantasy;
+
+   
+ }
