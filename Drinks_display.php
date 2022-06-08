@@ -10,13 +10,12 @@
     <title>Bar Manual</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/Style.css">
-    
+
     <script src="https://kit.fontawesome.com/70c966dfe1.js" crossorigin="anonymous"></script>
     <script src="js/bootstrap.bundle.js"> </script>
     <script src="js/script.js"> </script>
 
-
-
+ 
 
 </head>
 
@@ -27,8 +26,6 @@
 
 
     <?php
-
-   
     include('files/Navbar.php');
     ?>
 
@@ -36,13 +33,11 @@
     // require('db.php');
     include('files/sidenav.php');
     ?>
-
-    <div class="display_sb p-5" id="display_sb">
+    <div class="display_recipe">
         <?php
-        include('files/searchbar.php');
+        include('files/recipe.php');
         ?>
     </div>
-
 
 </body>
 

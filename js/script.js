@@ -3,7 +3,7 @@
 //OPEN
 function openNav() {
   document.getElementById("sidenav").style.width = "250px";
-  document.getElementById("display_sb").style.visibility = "hidden";
+ 
   document.getElementById("drinks_page").style.paddingLeft = "270px";
 }
 //COLSE
@@ -31,12 +31,12 @@ console.log(d.value);
 }
 
 
-function show_drinks(){
+// function show_drinks(){
 
- document.getElementById("display_sb").style.visibility = "hidden";
+//  document.getElementById("display_sb").style.visibility = "hidden";
 
-   document.getElementById("drinks_page").style.visibility = "visible";
+//    document.getElementById("drinks_page").style.visibility = "visible";
 
 
 
-}
+// }

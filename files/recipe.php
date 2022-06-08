@@ -1,5 +1,5 @@
 
-
+<?include('db.php')?>
 <div class="drinks_page  container" id="drinks_page">
     <div class="container  border boder-dark rounded  ">
 
