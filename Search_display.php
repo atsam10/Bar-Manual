@@ -29,9 +29,9 @@
     include('files/sidenav.php');
     ?>
 
-    <div class="display_sb p-5" id="display_sb">
+    <div class="container display_sb p-5" id="display_sb">
         <?php
-        include('files/searchbar.php');
+        include('files/searchpage.php');
         ?>
     </div>
 

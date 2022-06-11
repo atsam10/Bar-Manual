@@ -50,12 +50,12 @@
                         <div class="pt-3">
 
                             <ul class="Mocktails" style="list-style: none;">
-
+                            <form action="./Drinks_display.php" method="POST">
 
                                 <li class="pt-3"><button class="btn cocktail_list " type="submit" name="drink" value="11" > <b> Queens Necklace </b></button> </li>
                                 <li class="pt-3"><button class="btn cocktail_list " type="submit" name="drink" value="12" > <b> Bombay-Champeach Bellini </b></button> </li>
                                 <li class="pt-3"><button class="btn cocktail_list " type="submit" name="drink" value="13" > <b> Lychee Bellini </b></button> </li>
-
+                            </form>
                             </ul>
 
                         </div>
@@ -70,14 +70,14 @@
                     </li>
                     <div class="collapse" id="collapse_Aperitivo">
                         <div class="pt-3">
-
+                        <form action="./Drinks_display.php" method="POST">
                             <ul class="Mocktails" style="list-style: none;">
                                 <li class="pt-3"><button class="btn cocktail_list " type="submit" name="drink" value="14" > <b> Aperol Spiritz </b></button> </li>
                                 <li class="pt-3"><button class="btn cocktail_list " type="submit" name="drink" value="15" > <b> Snow's Negroni </b></button> </li>
                                 <li class="pt-3"><button class="btn cocktail_list " type="submit" name="drink" value="16" > <b> Pimmonade</b></button> </li>
 
                             </ul>
-
+                        </form>
                         </div>
                     </div>
                     <li class="pt-3">
@@ -89,7 +89,7 @@
                     </li>
                     <div class="collapse" id="collapse_Signature">
                         <div class="pt-3">
-
+                        <form action="./Drinks_display.php" method="POST">
                             <ul class="cocktails" style="list-style: none;">
                                 <li class="pt-3"><button class="btn cocktail_list " type="submit" name="drink" value="17" > <b> Vodka Bitters</b></button> </li>
                                 <li class="pt-3"><button class="btn cocktail_list " type="submit" name="drink" value="18" > <b> Tamarind Margarita </b></button> </li>
@@ -100,7 +100,7 @@
 
 
                             </ul>
-
+                        </form>
                         </div>
                     </div>
                     <li class="pt-3">
@@ -112,7 +112,7 @@
                     </li>
                     <div class="collapse" id="collapse_classic">
                         <div class="pt-3">
-
+                        <form action="./Drinks_display.php" method="POST">
                             <ul class="cocktails" style="list-style: none;">
                                 <li class="pt-3"><button class="btn cocktail_list " type="submit" name="drink" value="23" > <b> Classic Margarita </b></button> </li>
                                 <li class="pt-3"><button class="btn cocktail_list " type="submit" name="drink" value="24" > <b> Classic Martini </b></button> </li>
@@ -127,7 +127,7 @@
 
 
                             </ul>
-
+                        </form>
                         </div>
                     </div>
                 </ul>

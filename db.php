@@ -3,17 +3,17 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "bar manual";
+
 $name = "";
 $Ingredients = "";
 $Procedure = "";
 $result;
 $sql;
+
+
+
+
 // Create connection
-
-$conn;
-
-
-
 $conn = new mysqli($servername, $username, $password, $dbname);
 $sno = $_POST['drink'];
 
@@ -28,6 +28,10 @@ if($sno<10){
 
 $sql = "SELECT `s.no`, `M_Name`, `ingrdients`, `How_to_make` FROM `".$type."` WHERE `s.no`=". $sno . ";";
 $result = $conn->query($sql);
+
+
+
+
 if ($result->num_rows > 0) {
     // output data of each row
     while ($row = $result->fetch_assoc()) {

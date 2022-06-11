@@ -19,8 +19,7 @@
 }
 
 #searchbar{
-    height: 40px;
-   
+    height: 40px;   
 }
 
 
@@ -85,7 +84,6 @@
 
 
 .drinks_photo{
-
   margin: 50px;
   padding-right: 100px;
 
@@ -123,13 +121,11 @@
  }
 
  #drinks_page{
-
    padding-left: 10px;
  }
 
 
  .drinks_name{
-  
    font-family: cursive;
  }
 
@@ -137,6 +133,4 @@
 
  .drinks_ingredients , .drinks_procedure {
    font-family: fantasy;
-
-   
- }
+}

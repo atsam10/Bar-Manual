@@ -27,16 +27,10 @@
 
     <?php
     include('files/Navbar.php');
-    ?>
-
-    <?php
-    // require('db.php');
     include('files/sidenav.php');
     ?>
     <div class="display_recipe">
-        <?php
-        include('files/recipe.php');
-        ?>
+        <?php include('files/recipe.php'); ?>
     </div>
 
 </body>

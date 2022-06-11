@@ -25,12 +25,12 @@
                 </div>
 
 
-                <div class="drinks_photo p-3  w-50 bd-highlight border border-dark rounded" id="drinks_photo">
+                <!-- <div class="drinks_photo p-3  w-50 bd-highlight border border-dark rounded" id="drinks_photo">
 
 
                     < photo>
 
-                </div>
+                </div> -->
 
 
             </div>
