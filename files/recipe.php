@@ -1,7 +1,6 @@
-
-<?include('db.php')?>
+<? include('db.php') ?>
 <div class="drinks_page  container" id="drinks_page">
-    <div class="container  border boder-dark rounded  ">
+    <div class="container ">
 
         <div class="d-flex flex-column bd-highlight mb-3">
 
@@ -11,10 +10,15 @@
                 ?>
             </h1>
             <div class="d-flex flex-row bd-highlight  mb-3 ">
-                <div class="drinks_ingredients d-felx flex-column p-2 w-50 bd-highlight border border-dark rounded">
+                <div class="drinks_ingredients d-felx flex-column px-5 w-50 bd-highlight border border-dark rounded">
 
                     <h1 class="drinks_ingredients pt-5" id="heading">
-                        <b> Ingredients </b>
+
+                        <b>
+                            <?php
+                            echo $title;
+                            ?>
+                        </b>
                     </h1>
                     <div class="drinks_ingredients p-5 " id="ingredients">
                         <?php

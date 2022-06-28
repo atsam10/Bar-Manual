@@ -24,3 +24,6 @@ function submitted(event) {
   const d = document.getElementById("query");
   console.log(d.value);
 }
+
+
+
