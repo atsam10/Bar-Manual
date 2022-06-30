@@ -1,4 +1,4 @@
-<?php
+      <?php
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -25,14 +25,14 @@ if (!empty($_POST['drink'])) {
         $type = "Cocktaiks";
     }
     $operation = "=";
-}
+} 
 
 
 
 if (!empty($_POST['searchbar'])) {
-    $sno = $_POST['searchbar'];
+    $sno = ucwords( $_POST['searchbar']); //captalises each letter from begining of the word 
     $search_query = "M_Name";
-    if ($sno=="Tropical Thunder" || $sno=="Coriander and Coconut Virgin Mojito" || $sno=="Cool as Cucumber" || $sno=="Bollywood Smash" ) {
+    if ($sno=="Tropical Thunder" || $sno=="Coriander And Coconut Virgin Mojito" || $sno=="Cool As Cucumber" || $sno=="Bollywood Smash" ) {
         $type = "Mocktaiks";
 
     } else {
@@ -41,12 +41,14 @@ if (!empty($_POST['searchbar'])) {
     }
     $sno = "'%".$sno."%'";
     $operation = "like";
-    echo $type;
-}
+    // echo $sno;
+  
+} 
 
 
 
 $sql = "SELECT `s.no`, `M_Name`, `ingrdients`, `How_to_make` FROM `" . $type . "` WHERE `" . $search_query . "`". $operation  . $sno . ";";
+//$sql = "SELECT `s.no`, `M_Name`, `ingrdients`, `How_to_make` FROM `Cocktaiks` WHERE M_Name LIKE '%Lychee Bellini%'";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -59,7 +61,8 @@ if ($result->num_rows > 0) {
         $Procedure = $row["How_to_make"];
     }
 } else {
-    echo "0 results";
-    $title =  "Couldnt find any thing";
+    
+    $title =  "Couldnt find any thing called " . $_POST['searchbar'] ;
 
 }
+

@@ -18,8 +18,8 @@
 
                           <div class="px-sm-3 search_box_button">
 
-                             
-                              <input list="drinks" name="searchbar" class="bordser shadow p-3 border-dark rounded" id="searchbar" placeholder="Quick search" aria-describedby="search"    autocomplete="off" >
+
+                              <input list="drinks" name="searchbar" class="px-4 border  border-dark rounded" id="searchbar_input" placeholder="Quick search" aria-describedby="search" required autocomplete="off">
 
                               <datalist class="drinks_list" id="drinks">
 
@@ -27,40 +27,45 @@
                                   <option value="Coriander and Coconut Virgin Mojito">
                                   <option value="Cool as Cucumber">
                                   <option value="Bollywood Smash">
-                                  <option value=" Queens Necklace ">
-                                  <option value="Bombay-Champeach Bellini ">
-                                  <option value=" Lychee Bellini ">
-                                  <option value=" Aperol Spiritz ">
-                                  <option value="Snow's Negroni ">
+                                  <option value="Queens Necklace">
+                                  <option value="Bombay-Champeach Bellini">
+                                  <option value="Lychee Bellini">
+                                  <option value="Aperol Spiritz">
+                                  <option value="Snow's Negroni">
                                   <option value="Pimmonade">
-                                  <option value=" Vodka Bitters">
-                                  <option value=" Tamarind Margarita ">
-                                  <option value=" Goan Martini ">
-                                  <option value=" Mango Mojito ">
-                                  <option value=" Pomegranate Martini">
-                                  <option value=" Spicy Baby">
-                                  <option value=" Classic Margarita ">
-                                  <option value=" Classic Martini ">
-                                  <option value=" Classic mojito">
+                                  <option value="Vodka Bitters">
+                                  <option value="Tamarind Margarita">
+                                  <option value="Goan Martini">
+                                  <option value="Mango Mojito">
+                                  <option value="Pomegranate Martini">
+                                  <option value="Spicy Baby">
+                                  <option value="Classic Margarita">
+                                  <option value="Classic Martini">
+                                  <option value="Classic mojito">
                                   <option value="Long Island Iced Tea">
                                   <option value="Cosmopolitan">
-                                  <option value=" Espresso Martini">
-                                  <option value=" Old Fashioned">
+                                  <option value="Espresso Martini">
+                                  <option value="Old Fashioned">
                                   <option value="Dark and Stormy">
-                                  <option value=" Cuba libre">
-                                  <option value=" Amaretto Sours ">
-                                    
+                                  <option value="Cuba libre">
+                                  <option value="Amaretto Sours">
+
                               </datalist>
 
 
                               <!-- <input type="search" name="searchbar" class="bordser shadow p-3 border-dark rounded" id="searchbar" placeholder="Quick search" aria-describedby="search">  -->
-                          
-                              <button type="submit" class="btn border border-dark shadow  " id="search" height=10px>Search</button>
+
+                              <button type="submit" class="btn border border-dark p-2  " id="search" height=10px>
+
+
+                                  <span class="search_txt"> Search </span>
+                                  <span class="search_logo"> <i class="fa-solid fa-magnifying-glass"></i> </span>
+
+
+                              </button>
                           </div>
 
-                          <div class="px-sm-3 search_box_button">
-                      
-                          </div>
+              
 
 
                       </div>

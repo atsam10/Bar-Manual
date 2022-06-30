@@ -9,8 +9,11 @@
                 echo $name;
                 ?>
             </h1>
-            <div class="d-flex flex-row bd-highlight  mb-3 ">
-                <div class="drinks_ingredients d-felx flex-column px-5 w-50 bd-highlight border border-dark rounded">
+
+
+
+            <div class="d-flex flex-sm-row  flex-column-reverse bd-highlight  mb-3 ">
+                <div class="drinks_ingredients  w-sm-50 d-felx  flex-column bd-highlight ">
 
                     <h1 class="drinks_ingredients pt-5" id="heading">
 
@@ -20,7 +23,8 @@
                             ?>
                         </b>
                     </h1>
-                    <div class="drinks_ingredients p-5 " id="ingredients">
+                    
+                    <div class="drinks_ingredients p-4 " id="ingredients">
                         <?php
                         echo $Ingredients;
                         ?>
@@ -29,12 +33,12 @@
                 </div>
 
 
-                <!-- <div class="drinks_photo p-3  w-50 bd-highlight border border-dark rounded" id="drinks_photo">
+               <div class="drinks_photo p-3  w-sm-50 bd-highlight " id="drinks_photo">
 
 
                     < photo>
 
-                </div> -->
+                </div> 
 
 
             </div>
