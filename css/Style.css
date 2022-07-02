@@ -7,6 +7,14 @@
   src: url(../fonts/Jelly.ttf);
 }
 
+body{
+
+  background-color:#f2f2f2;
+
+
+}
+
+
 .top {
   float: none;
   position: absolute;
@@ -40,7 +48,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: antiquewhite;
+  background-color:#7da2a9;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -79,7 +87,7 @@
 .Cocktails_name {
   font-style: bold;
   font-size: 25px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family:chalk_font;
 }
 /*//Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif */
 
@@ -117,9 +125,12 @@
 
   .drinks_photo {
     width: 80%;
-    background-color: antiquewhite;
+ 
     margin: 25px;
     padding-right: 100px;
+  }
+  .drink_photo{
+    background-color: antiquewhite;
   }
   .search_txt {
     display: none;

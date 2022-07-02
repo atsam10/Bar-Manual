@@ -23,7 +23,7 @@
                             ?>
                         </b>
                     </h1>
-                    
+
                     <div class="drinks_ingredients p-4 " id="ingredients">
                         <?php
                         echo $Ingredients;
@@ -33,21 +33,24 @@
                 </div>
 
 
-               <div class="drinks_photo p-3  w-sm-50 bd-highlight " id="drinks_photo">
+                <div class="drinks_photo w-sm-50  bd-highlight " id="drinks_photo">
 
+                <!-- -->
+           
+                   <img class="border drink_photo p-1 shadow-lg border-dark rounded" src="./Images/<?echo $drink_num?>.png "height="350px" width=auto  alt="<?echo $name?> photo ">
 
-                    < photo>
-
-                </div> 
+                </div>
 
 
             </div>
 
-            <div class="drinks_procedure border p-5 w-100 border-dark rounded" id="drinks_procedure">
+            <div class="drinks_procedure w-100 " id="drinks_procedure">
+            <div class=" <?php echo $Procedure_class ?>">
+                    <?php
+                    echo $Procedure;
+                    ?>
+            </div>
 
-                <?php
-                echo $Procedure;
-                ?>
             </div>
 
         </div>

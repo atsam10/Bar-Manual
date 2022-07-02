@@ -21,7 +21,7 @@
 
 </head>
 
-<body>
+<body >
 
 <?php
 
@@ -35,7 +35,7 @@
         include('files/searchbar.php');
         ?>
     </div>
-
+   
 
 </body>
 

@@ -29,7 +29,7 @@
     include('files/Navbar.php');
     include('files/sidenav.php');
     ?>
-    <div class="display_recipe">
+    <div class="container bg-light display_recipe border border-dark rounded shadow">
         <?php include('files/recipe.php'); ?>
     </div>
 

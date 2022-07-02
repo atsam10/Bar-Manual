@@ -7,19 +7,19 @@
               <div class="d-flex flex-column bd-highlight mb-3">
 
                   <div class="logo pt-3 text-center ">
-                      <img src="images/logo.png" alt="here lies a logo " height="200px" width="200px">
+                      <img src="images/logo.png" alt="here lies a logo " height="300px" width="300px">
                   </div>
 
 
                   <form action="Drinks_display.php" class="serach_form" role="search" method="POST">
 
-                      <div class="d-flex pt-3 mx-3 flex-row ">
+                      <div class="d-flex pt-1 mx-3 flex-row ">
 
 
                           <div class="px-sm-3 search_box_button">
 
 
-                              <input list="drinks" name="searchbar" class="px-4 border  border-dark rounded" id="searchbar_input" placeholder="Quick search" aria-describedby="search" required autocomplete="off">
+                              <input list="drinks" name="searchbar" class="px-4 border border-dark rounded bg-transparent " id="searchbar_input" placeholder="Quick search" aria-describedby="search" required autocomplete="off">
 
                               <datalist class="drinks_list" id="drinks">
 
