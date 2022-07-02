@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jun 28, 2022 at 05:33 PM
+-- Generation Time: Jul 02, 2022 at 06:20 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.4.28
 
@@ -58,7 +58,7 @@ INSERT INTO `Cocktaiks` (`s.no`, `M_Name`, `ingrdients`, `How_to_make`) VALUES
 (17, 'Cosmopolitan', '45ml vodka <br>\r\n15ml triple sec<br>\r\n15ml cranberry juice<br>\r\n10ml lime juice<br>\r\n10ml Sugar syrup (Optional)<br>', 'Put all the ingredients in a shaker and shake and strain in a chilled martini glass'),
 (18, 'Espresso Martini', '45ml Vodka<br>\r\n15ml Kahlua<br>\r\n30ml Espresso<br>\r\n15ml Sugar Syrup \r\n<br>', 'Put all the ingredients in a shaker and shake and strain in a chilled martini glass. 3 Coffe beans to garnish.'),
 (19, 'Old Fashioned', '30ml Jack Daniels<br>\r\n30ml Jim Beam <br>\r\nSuagar<br>\r\n3-4 Dashes of Bitters<br>\r\n', 'Muddle sugar and bitters together until sugar is dissolved. Add Ice and pour the bourbon and orange twist as garnish '),
-(20, 'Dark and stormy', '60ml Dark Rum<br>\r\nGinger beer<br>\r\nlime wedge<br>', 'In a tall glass add ice and pour the rum top up with ginger beer and a lemon wedge to garnish'),
+(20, 'Dark And Stormy', '60ml Dark Rum<br>\r\nGinger beer<br>\r\nlime wedge<br>', 'In a tall glass add ice and pour the rum top up with ginger beer and a lemon wedge to garnish'),
 (21, 'Cuba Libre', '60ml Cuban Rum<br>\r\n10ml Lemon Juice<br>\r\ncoke<br>', 'In a tall glass add ice and pour the rum top up with coke and a lemon wedge to garnish'),
 (22, 'Amaretto Sours', '60ml Amaretto<br>\r\n15ml lemon juice<br>\r\n3-4 dashes of Bitters <br>\r\nEgg white (IF THERE IS) <br>\r\n', 'Shake all the ingredients with ice and pour into a rocks glass with a sugar rim without straining.');
 
@@ -81,8 +81,8 @@ CREATE TABLE `Mocktaiks` (
 
 INSERT INTO `Mocktaiks` (`s.no`, `M_Name`, `ingrdients`, `How_to_make`) VALUES
 (1, 'Tropical Thunder\n', '2/3 Orange Juice <br>\r\n1/3 Pineapple juice  <br>\r\n1 Oz / 30ml Mango Pulp  <br>\r\n10 ml Sugar syrup  <br>\r\n10 ml Lemon cordial  <br>', 'Put all the ingredients in a blender with 5-6 cubes of ice and garnish with a wheel of oranges and cherry. \r\n'),
-(2, 'Coriander and Coconut Virgin Mojito ', '4-5 mint leaves  <br>\r\nCoriander  <br>\r\nFresh squeezed lime juice  <br>\r\n10-15 ml sugar syrup  <br>\r\nCoconut water   <br>', 'Blend the above ingredients with 5-6 cubes of ice and put the blended mixture until 3/4 in the glass and top-up with sprite / lemonade and garnish with mint leaves and wheel of lime '),
-(3, 'Cool as Cucumber', '4-5 mint leaves  <br>\r\nCucumber slices <br>\r\nFresh squeezed lime juice  <br>\r\n10-15 ml sugar syrup  <br>\r\nCoconut water   <br>', 'Blend the above ingredients with 5-6 cubes of ice and put the blended mixture until 3/4 in the glass and top-up with sprite / lemonade and garnish with mint leaves and wheel of lime'),
+(2, 'Coriander And Coconut Virgin Mojito ', '4-5 mint leaves  <br>\r\nCoriander  <br>\r\nFresh squeezed lime juice  <br>\r\n10-15 ml sugar syrup  <br>\r\nCoconut water   <br>', 'Blend the above ingredients with 5-6 cubes of ice and put the blended mixture until 3/4 in the glass and top-up with sprite / lemonade and garnish with mint leaves and wheel of lime '),
+(3, 'Cool As Cucumber', '4-5 mint leaves  <br>\r\nCucumber slices <br>\r\nFresh squeezed lime juice  <br>\r\n10-15 ml sugar syrup  <br>\r\nCoconut water   <br>', 'Blend the above ingredients with 5-6 cubes of ice and put the blended mixture until 3/4 in the glass and top-up with sprite / lemonade and garnish with mint leaves and wheel of lime'),
 (4, 'Bollywood Smash ', '1/3 pineapple juice  <br>\r\n1/3 ginger ale  <br>\r\n1/3 cranberry juice  <br>\r\n10ml lemon cordial <br>', 'Fill the glass with ice and put all the ingredients in the glass and garnish with an orange slice. ');
 
 --
