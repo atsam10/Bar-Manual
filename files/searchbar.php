@@ -6,8 +6,8 @@
 
               <div class="d-flex flex-column bd-highlight mb-3">
 
-                  <div class="logo pt-3 text-center ">
-                      <img src="images/logo.png" alt="here lies a logo " height="300px" width="300px">
+                  <div class="logo p-3 text-center ">
+                      <img class="p-2 border border-dark rounded" src="Images/logo.jpeg" alt="here lies a logo " height="200px" width="200px">
                   </div>
 
 
