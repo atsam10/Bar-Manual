@@ -1,8 +1,17 @@
       <?php
-        $servername = "213.165.238.27";
-        $username = "abiralshrestha_aashish";
-        $password = "Nepal2073$";
-        $dbname = "abiralshrestha_Bar_manual";
+        // $servername = "213.165.238.27";
+        // $username = "abiralshrestha_aashish";
+        // $password = "Nepal2073$";
+        // $dbname = "abiralshrestha_Bar_manual";
+
+        
+
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+        $dbname = "bar manual";
+
+
         $operation = "=";
         $name = "";
         $title = "";
@@ -16,10 +25,10 @@
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
 
-        if ($conn -> connect_errno) {
-            echo "Failed to connect to Database: " . $conn -> connect_error;
+        if ($conn->connect_errno) {
+            echo "Failed to connect to Database: " . $conn->connect_error;
             exit();
-          } 
+        }
 
         if (!empty($_POST['drink'])) {
             $sno = $_POST['drink'];

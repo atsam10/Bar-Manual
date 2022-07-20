@@ -41,7 +41,7 @@
                 <ul class="cocktails" style="list-style: none;">
                     <li class="pt-3">
                         <b>
-                            <a class="btn " data-bs-toggle="collapse" href="#collapse_sparkilng_Tipples" role="button" aria-expanded="false" aria-controls="collapse_sparkilng_Tipples">
+                            <a class="btn Cocktails_name_btn " data-bs-toggle="collapse" href="#collapse_sparkilng_Tipples" role="button" aria-expanded="false" aria-controls="collapse_sparkilng_Tipples">
                                 <span class="Cocktails_name"> Sparklilng Tipples </span>
                             </a>
                         </b>
@@ -63,7 +63,7 @@
 
                     <li class="pt-3">
                         <b>
-                            <a class="btn " data-bs-toggle="collapse" href="#collapse_Aperitivo" role="button" aria-expanded="false" aria-controls="collapse_ Aperitivo">
+                            <a class="btn Cocktails_name_btn " data-bs-toggle="collapse" href="#collapse_Aperitivo" role="button" aria-expanded="false" aria-controls="collapse_ Aperitivo">
                                 <span class="Cocktails_name"> Aperitivo </span>
                             </a>
                         </b>
@@ -82,7 +82,7 @@
                     </div>
                     <li class="pt-3">
                         <b>
-                            <a class="btn " data-bs-toggle="collapse" href="#collapse_Signature" role="button" aria-expanded="false" aria-controls="collapse_Signature">
+                            <a class="btn Cocktails_name_btn " data-bs-toggle="collapse" href="#collapse_Signature" role="button" aria-expanded="false" aria-controls="collapse_Signature">
                                 <span class="Cocktails_name"> Signature Cocktails</span>
                             </a>
                         </b>
@@ -105,7 +105,7 @@
                     </div>
                     <li class="pt-3">
                         <b>
-                            <a class="btn " data-bs-toggle="collapse" href="#collapse_classic" role="button" aria-expanded="false" aria-controls="collapse_classic">
+                            <a class="btn Cocktails_name_btn " data-bs-toggle="collapse" href="#collapse_classic" role="button" aria-expanded="false" aria-controls="collapse_classic">
                                 <span class="Cocktails_name"> Classic Cocktails</span>
                             </a>
                         </b>

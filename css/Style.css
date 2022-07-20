@@ -7,13 +7,10 @@
   src: url(../fonts/Jelly.ttf);
 }
 
-body{
 
-  background-color:#f2f2f2;
-
-
+body {
+  background-color: #f2f2f2;
 }
-
 
 .top {
   float: none;
@@ -28,37 +25,40 @@ body{
 #searchbar_input {
   height: 40px;
 }
-
-#search{
+/* for the click effect  */
+#search {
   height: 40px;
 }
 #search:hover {
-  background-color: antiquewhite;
+  background-color: #7da2a9;
 }
 
 #search:active {
-  background-color: rgb(240, 169, 76);
+  background-color: #5c7377;
   transform: translateY(4px);
 }
 
+/* side bar settings */
 .sidenav {
   height: 100%;
-  width: 0;
+  width: 250px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color:#7da2a9;
+  background-color: #7da2a9;
   overflow-x: hidden;
   transition: 0.25s;
   padding-top: 60px;
 }
 
+
+
 .sidenav .closebtn {
   position: absolute;
+  visibility: hidden;
   top: 5px;
   right: 25px;
-
   margin-left: 50px;
 }
 
@@ -84,16 +84,25 @@ body{
   text-decoration: none;
 }
 
+.Cocktails_name_btn:hover {
+  background-color: #164e59;
+}
+
+.mocktails:hover,
+.cocktail_list:hover {
+ 
+  background-color: #394f53;
+}
+
 .Cocktails_name {
   font-style: bold;
   font-size: 25px;
-  font-family:chalk_font;
+  font-family: chalk_font;
 }
-/*//Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif */
 
 .drinks_photo {
   margin: 50px;
-  padding-right: 100px;
+  padding-right: 70px;
 }
 .search_logo {
   display: none;
@@ -101,6 +110,11 @@ body{
 .search_txt {
   display: inline;
 }
+
+
+
+
+/* mobile phone view */
 @media (max-width: 576px) {
   .label {
     text-align: center;
@@ -125,33 +139,31 @@ body{
 
   .drinks_photo {
     width: 80%;
- 
+
     margin: 25px;
     padding-right: 100px;
   }
-  .drink_photo{
+  .drink_photo {
     background-color: antiquewhite;
   }
   .search_txt {
     display: none;
   }
   .search_logo {
-    display:inline ;
+    display: inline;
   }
   #searchbar_input {
-
     height: 38px;
     width: 190px;
   }
+
 }
 
 .display_sb {
   visibility: visible;
 }
 
-#drinks_page {
-  padding-left: 10px;
-}
+
 
 .drinks_name {
   font-family: cursive;
@@ -161,4 +173,39 @@ body{
 .drinks_procedure {
   font-family: cursive;
 }
-  
+
+/* resposivness */
+@media (max-width: 960px) {
+  .sidenav {
+    width: 0px;
+  }
+
+  .opensidenav {
+    visibility: visible;
+  }
+
+  .sidenav .closebtn {
+    visibility: visible;
+  }
+
+  #drinks_page {
+    padding-left: 0px;
+   
+  }
+
+}
+
+@media  (min-width: 960px) {
+  .sidenav {
+    width: 250px;
+  }
+  #drinks_page {
+    padding-left: 250px;
+   
+  }
+
+}
+/* #drinks_page {
+  padding-left: 200px;
+ 
+} */

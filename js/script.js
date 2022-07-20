@@ -3,6 +3,7 @@
 //OPEN
 function openNav() {
   document.getElementById("sidenav").style.width = "250px";
+  // document.getElementById("display_sb").style.visibility = "hidden";
   // document.getElementById("drinks_page").style.paddingLeft = "270px";
 }
 
@@ -10,7 +11,7 @@ function openNav() {
 function closeNav() {
   document.getElementById("sidenav").style.width = "0";
   // document.getElementById("display_sb").style.visibility = "visible";
-  //document.getElementById("drinks_page").style.paddingLeft = "10px";
+  // document.getElementById("drinks_page").style.paddingLeft = "10px";
 }
 
 //FOR SEARCH BAR

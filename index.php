@@ -10,7 +10,7 @@
     <title>Bar Manual</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/Style.css">
-
+    <link rel="icon" type="image/x-icon" href="Images/fav_icon.png">
     <script src="https://kit.fontawesome.com/70c966dfe1.js" crossorigin="anonymous"></script>
     <script src="js/bootstrap.bundle.js"> </script>
     <script src="js/script.js"> </script>

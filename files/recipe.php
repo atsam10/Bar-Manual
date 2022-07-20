@@ -1,6 +1,6 @@
 <? include('db.php') ?>
-<div class="drinks_page  container" id="drinks_page">
-    <div class="container ">
+<div class="drinks_page  container " id="drinks_page">
+    <div class="container bg-light display_recipe border border-dark rounded shadow ">
 
         <div class="d-flex flex-column bd-highlight mb-3">
 

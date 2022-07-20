@@ -4,7 +4,7 @@
 
             <!-- collapse button -->
             <div class="px-2">
-                <button type="button" class=" btn btn-outline-dark btn-lg " onclick="openNav()">
+                <button type="button" class="opensidenav btn btn-outline-dark btn-lg " onclick="openNav()">
                     <i class="fa-solid fa-bars"></i>
                 </button>
             </div>
